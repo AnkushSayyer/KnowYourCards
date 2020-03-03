@@ -37,7 +37,7 @@ public class Game {
 
 	//Give cards to players
 	public boolean distributeCardsToAll(int n) {
-		if(n*noOfCards>deck.remainingCards()) {
+		if(players.size()*noOfCards>deck.remainingCards()) {
 			System.out.println("\n\nCant distribute cards Please check inputs.....\n"
 					+ "Remaining cards - " + deck.remainingCards());
 			return false;
