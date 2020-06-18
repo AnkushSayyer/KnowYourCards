@@ -49,7 +49,7 @@ public class Player implements Comparable<Player>{
 		return cards;
 	}
 
-	//Logic for ranking players
+	//Logic for ranking players (comparing the sum of digit cards)
 	@Override
 	public int compareTo(Player p2) {
 		if(this.sumOfCardsNum == p2.sumOfCardsNum) {
