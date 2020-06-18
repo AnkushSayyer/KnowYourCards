@@ -11,6 +11,7 @@ public class GameTest {
 		Deck deck = new Deck();
 		Game game = new Game(deck);
 		
+		//noOfCards, noOfPlayers
 		game.startGame(2, 3);
 		game.displayPlayerCards();
 		game.findWinner();
